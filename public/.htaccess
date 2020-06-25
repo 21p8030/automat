@@ -1,7 +1,7 @@
 Options -MultiViews
 RewriteEngine On 
 
-RewriteBase /TemplateMVC/TemplateMVC/public
+RewriteBase /public
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f

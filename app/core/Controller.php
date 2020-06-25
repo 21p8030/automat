@@ -11,7 +11,7 @@ class Controller{
         
     }
     public function goto($controller, $method, $args = []) {
-        $base = '/TemplateMVC/TemplateMVC/public';
+        $base = '/public';
         $location = 'http://' . $_SERVER['HTTP_HOST'] . $base . "/" . $controller . "/" . $method . "/" . implode("/", $args);
         header("Location: " . $location);
         exit;
